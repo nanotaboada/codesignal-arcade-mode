@@ -50,6 +50,11 @@
     (7 + 4 + 0 + 5 + 6 + 2 + 6 + 10 + 7) = 47 / 9 = 5.2222 = 5.
     The other three integers are obtained the same way, then the surrounding
     integers are cropped from the final result.
+
+    Guaranteed constraints:
+    3 ≤ image.length ≤ 100,
+    3 ≤ image[0].length ≤ 100,
+    0 ≤ image[i][j] ≤ 255.
 */
 
 /*  

@@ -22,6 +22,9 @@
     For n = 10 and firstNumber = 7, the output should be
     solution(n, firstNumber) = 2.
 
+    Guaranteed constraints:
+    4 ≤ n ≤ 20.
+    0 ≤ firstNumber ≤ n - 1.
 */
 
 /*  

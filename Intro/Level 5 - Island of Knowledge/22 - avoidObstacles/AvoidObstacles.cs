@@ -22,6 +22,10 @@
         |              X    |    X    X    X    |    X
     ----|----|----|----|----|----|----|----|----|----|----|----
         0    1    2    3    4    5    6    7    8    9    10
+
+    Guaranteed constraints:
+    2 ≤ inputArray.length ≤ 1000,
+    1 ≤ inputArray[i] ≤ 1000.
 */
 
 /*  

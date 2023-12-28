@@ -10,6 +10,9 @@
     
     For n = 642386, the output should be
     solution(n) = false.
+
+    Guaranteed constraints:
+    1 ≤ n ≤ 109.
 */
 
 /*  

@@ -8,6 +8,10 @@
     
     For inputArray = [2, 4, 1, 0], the output should be
     solution(inputArray) = 3.
+
+    Guaranteed constraints:
+    3 ≤ inputArray.length ≤ 10,
+    -15 ≤ inputArray[i] ≤ 15.
 */
 
 /*  

@@ -11,6 +11,8 @@
     Given your and your friend's arms' lifting capabilities find out if you two
     are equally strong.
 
+    Example
+
     For yourLeft = 10, yourRight = 15, friendsLeft = 15, and friendsRight = 10,
     the output should be
     solution(yourLeft, yourRight, friendsLeft, friendsRight) = true;
@@ -22,6 +24,12 @@
     For yourLeft = 15, yourRight = 10, friendsLeft = 15, and friendsRight = 9,
     the output should be
     solution(yourLeft, yourRight, friendsLeft, friendsRight) = false.
+
+    Guaranteed constraints:
+    0 ≤ yourLeft ≤ 20.
+    0 ≤ yourRight ≤ 20.
+    0 ≤ friendsLeft ≤ 20.
+    0 ≤ friendsRight ≤ 20
 */
 
 /*  

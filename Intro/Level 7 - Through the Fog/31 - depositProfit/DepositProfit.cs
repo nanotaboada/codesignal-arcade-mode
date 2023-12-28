@@ -21,6 +21,11 @@
     
     Thus, it will take 3 years for your balance to pass the threshold,
     so the answer is 3.
+
+    Guaranteed constraints:
+    1 ≤ deposit ≤ 100.
+    1 ≤ rate ≤ 100.
+    deposit < threshold ≤ 200.
 */
 
 /*  

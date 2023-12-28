@@ -16,6 +16,9 @@
     
     For name = "2w2", the output should be
     solution(name) = false.
+
+    Guaranteed constraints:
+    1 ≤ name.length ≤ 10.
 */
 
 /*  

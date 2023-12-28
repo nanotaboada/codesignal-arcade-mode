@@ -22,6 +22,10 @@
             [2, 1, 1],
             [1, 1, 1]
         ]
+
+    Guaranteed constraints:
+    2 ≤ matrix.length ≤ 100,
+    2 ≤ matrix[0].length ≤ 100.
 */
 
 /*  

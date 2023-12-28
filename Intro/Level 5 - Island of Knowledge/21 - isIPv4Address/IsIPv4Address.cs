@@ -20,6 +20,9 @@
     For inputString = ".254.255.0", the output should be
     solution(inputString) = false.
     There is no first number.
+
+    Guaranteed constraints:
+    1 ≤ inputString.length ≤ 30.
 */
 
 /*  

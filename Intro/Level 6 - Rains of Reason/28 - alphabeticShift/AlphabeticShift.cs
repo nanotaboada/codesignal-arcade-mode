@@ -8,6 +8,9 @@
     Example
     For inputString = "crazy", the output should be
     solution(inputString) = "dsbaz".
+
+    Guaranteed constraints:
+    1 ≤ inputString.length ≤ 1000.
 */
 
 /*  

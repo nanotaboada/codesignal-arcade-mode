@@ -69,6 +69,13 @@
       +---+---+---+---+---+---+---+---+
         A   B   C   F   E   F   G   H
 
+    Guaranteed constraints:
+    cell1.length = 2,
+    'A' ≤ cell1[0] ≤ 'H',
+    1 ≤ cell1[1] ≤ 8.
+    cell2.length = 2,
+    'A' ≤ cell2[0] ≤ 'H',
+    1 ≤ cell2[1] ≤ 8.
 */
 
 /*  
