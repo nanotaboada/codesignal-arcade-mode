@@ -34,26 +34,22 @@
 
 */
 
-int solution(int[][] matrix)
-{
-    var sum = 0;
-    var rows = matrix.Length;
-    var columns = matrix[0].Length;
+function solution(matrix) {
+
+    let sum = 0;
+    const rows = matrix.length;
+    const columns = matrix[0].length;
 
     // Loop through columns (left-to-right)
-    for (var leftToRight = 0; leftToRight < columns; leftToRight++)
-    {
+    for (let leftToRight = 0; leftToRight < columns; leftToRight++) {
         // Loop through rows (top-to-bottom)
-        for (var topToBottom = 0; topToBottom < rows; topToBottom++)
-        {
-            if (matrix[topToBottom][leftToRight] == 0)
-            {
+        for (let topToBottom = 0; topToBottom < rows; topToBottom++) {
+
+            if (matrix[topToBottom][leftToRight] === 0) {
                 // When we find a zero we break the cycle,
                 // invalidating the rest of the row
                 break;
-            }
-            else
-            {
+            } else {
                 sum += matrix[topToBottom][leftToRight];
             }
         }

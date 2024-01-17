@@ -31,21 +31,21 @@
     --------------------------------------------------------------------------------
 */
 
-bool solution(int[] sequence)
+boolean solution(int[] sequence)
 {
-    var decreases = 0;
-    
-    for (var i = 0; i < sequence.Length - 1; i++)
-    {
-        if (sequence[i] - sequence[i + 1] >= 0)
-        {
+    int decreases = 0;
+
+    for (int i = 0; i < sequence.length - 1; i++) {
+
+        if (sequence[i] - sequence[i + 1] >= 0) {
+
             decreases += 1;
 
             if (i - 1 >= 0
-                && i + 2 <= sequence.Length - 1
+                && i + 2 <= sequence.length - 1
                 && sequence[i] - sequence[i + 2] >= 0
-                && sequence[i - 1] - sequence[i + 1] >= 0)
-            {
+                && sequence[i - 1] - sequence[i + 1] >= 0) {
+
                 return false;
             }
         }

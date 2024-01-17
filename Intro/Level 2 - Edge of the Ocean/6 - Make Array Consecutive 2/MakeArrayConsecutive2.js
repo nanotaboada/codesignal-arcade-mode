@@ -24,23 +24,23 @@
     --------------------------------------------------------------------------------
 */
 
-int solution(int[] statues) // [6, 2, 3, 8]
-{
-    Array.Sort(statues); // [2, 3, 6, 8]
+function solution(statues) { // [6, 2, 3, 8]
 
-    var smallest = statues[0]; // 2
-    var largest = statues[^1]; // 8
-    var additional = 0;
+    statues.sort((a, b) => a - b); // [2, 3, 6, 8]
 
-    for (var i = smallest; i < largest; i++)
-    {
-        if (!statues.Contains(i)) // i = 2, 3, 4, 5, 6 and 7
-        {
+    const smallest = statues[0]; // 2
+    const largest = statues[statues.length - 1]; // 8
+    let additional = 0;
+
+    for (let i = smallest; i < largest; i++) { 
+        // https://www.freecodecamp.org/news/4-methods-to-search-an-array/
+        if (!statues.includes(i)) { // i = 2, 3, 4, 5, 6 and 7
             additional++; // i = 4, 5 and 7
         }
     }
-    
+
     return additional; // 3
 }
+
 
 

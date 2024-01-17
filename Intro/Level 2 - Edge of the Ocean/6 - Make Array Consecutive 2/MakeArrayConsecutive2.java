@@ -24,22 +24,21 @@
     --------------------------------------------------------------------------------
 */
 
-int solution(int[] statues) // [6, 2, 3, 8]
-{
-    Array.Sort(statues); // [2, 3, 6, 8]
+int solution(int[] statues) {  // [6, 2, 3, 8]
 
-    var smallest = statues[0]; // 2
-    var largest = statues[^1]; // 8
-    var additional = 0;
+    Arrays.sort(statues); // [2, 3, 6, 8]
 
-    for (var i = smallest; i < largest; i++)
-    {
-        if (!statues.Contains(i)) // i = 2, 3, 4, 5, 6 and 7
-        {
+    int smallest = statues[0]; // 2
+    int largest = statues[statues.length - 1]; // 8
+    int additional = 0;
+
+    for (int i = smallest; i < largest; i++) {
+        // https://www.freecodecamp.org/news/how-to-use-arrays-binarysearch-in-java/
+        if (Arrays.binarySearch(statues, i) < 0) { // i = 2, 3, 4, 5, 6 and 7
             additional++; // i = 4, 5 and 7
         }
     }
-    
+
     return additional; // 3
 }
 
