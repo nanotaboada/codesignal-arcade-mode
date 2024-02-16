@@ -28,7 +28,7 @@
 
 bool solution(string name)
 {
-    // https://regex101.com/r/cr8NGb/2
+    // https://regex101.com/r/cr8NGb/1
     const string pattern = "^[a-zA-Z_][a-zA-Z0-9_]*$";
     var regex = new Regex(pattern, RegexOptions.IgnoreCase);
     
